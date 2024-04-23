@@ -1,0 +1,75 @@
+import React from "react";
+import "./fsd.css";
+function Nav() {
+  return (
+    <>
+      <nav>
+        <div className="logo">ErenXbranz</div>
+        <div className="menu">
+          <ul className="">
+            <li>
+              {" "}
+              <a href="#">Home</a>{" "}
+            </li>
+            <li>
+              {" "}
+              <a href="#">About</a>{" "}
+            </li>
+            <li>
+              {" "}
+              <a href="#">Contact</a>{" "}
+            </li>
+            <li>
+              {" "}
+              <a href="#">Order</a>{" "}
+            </li>
+            <li>
+              {" "}
+              <a href="#">Report</a>{" "}
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div className="home">
+        <div className="center">
+          <h1>Create a Blog Website</h1>
+          <h1>Pure HTML & CSS Only</h1>
+          <div className="btns">
+            <button>Learn More</button>
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div className="content">
+        <div className="pic-one">
+        <div className="image"></div>
+          <h3>ErenXbranz Pvt Ltd</h3>
+          <p className="date"> published on april 18 2024</p>
+          <div className="brand">
+            <p>
+              erenxbranz is the number one product based development in india
+            </p>
+          </div>
+        </div>
+
+        <div className="pic-two">
+          <div className="image"></div>
+          
+          <h3>ErenXbranz Pvt Ltd</h3>
+          <p className="date"> published on april 18 2024</p>
+          <div className="brand">
+            <p>
+              erenxbranz is the number one product based development in india
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="foot">
+        <h5>@2024 designed by erenxbranz</h5>
+      </div>
+    </>
+  );
+}
+
+export default Nav;
+
